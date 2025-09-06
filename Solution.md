@@ -12,15 +12,16 @@ I tested with two configurations:
 Input has two Wikipedia files Apache_Hadoop and the MapReduce are downloaded via curl and had stored in HDFS Hadoop Distributed File System.
 
 ## Software Requirements
-Coding CSEL
-Google Cloud Platform (Dataproc)
-Python 3
-Git
-Hadoop (using hadoop streaming API)
+- Coding CSEL
+- Google Cloud Platform (Dataproc)
+- Python 3
+- Git
+- Hadoop (using hadoop streaming API)
+
 Resources used:
-Map streaming API: https://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/
-Check for URL in string: https://www.geeksforgeeks.org/python/python-check-url-string/
-Dataproc Qwiklabs: https://www.cloudskillsboost.google/focuses/586?parent=catalog
+- Map streaming API: https://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/
+- Check for URL in string: https://www.geeksforgeeks.org/python/python-check-url-string/
+- Dataproc Qwiklabs: https://www.cloudskillsboost.google/focuses/586?parent=catalog
 
 
 
@@ -68,6 +69,5 @@ Small clusters can sometimes create these kinds of performance penalties. Result
 
 
 
-Resources used: Hadoop documentation, Google Cloud Platform, QWIK Labs Dataproc, coding.csel and Wikipedia articles.
 
 
