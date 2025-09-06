@@ -37,7 +37,7 @@ STREAM_JAR = /usr/local/hadoop-$(HADOOP_V)/share/hadoop/tools/lib/hadoop-streami
 stream:
 	-rm -rf stream-output
 	hadoop jar $(STREAM_JAR) \
-	-mapper Mapper.py \
-	-reducer Reducer.py \
-	-file Mapper.py -file Reducer.py \
+	-mapper url_mapper.py \
+	-reducer url_reducer.py \
+	-file url_mapper.py -file url_reducer.py \
 	-input input -output stream-output
